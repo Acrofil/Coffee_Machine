@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+// testing branch
 
 public class machine {
     final static Scanner scan = new Scanner(System.in);
@@ -21,6 +21,7 @@ public class machine {
         ingridients[coffee] = 120;
         ingridients[cups] = 9;
         ingridients[money] = 550;
+		ingridients[6] = 100; // test
 
         action(ingridients, water, milk, coffee, money, cups);
 
